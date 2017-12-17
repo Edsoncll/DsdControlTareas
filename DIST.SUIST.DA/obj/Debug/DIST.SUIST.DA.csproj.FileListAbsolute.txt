@@ -30,3 +30,11 @@ F:\DOCUMENTOS\SistemaSUITS\DIST.SUIST.DA\obj\Debug\DIST.SUIST.DA.csprojResolveAs
 F:\DOCUMENTOS\SistemaSUITS\DIST.SUIST.DA\obj\Debug\DIST.SUIST.DA.csproj.CoreCompileInputs.cache
 F:\DOCUMENTOS\SistemaSUITS\DIST.SUIST.DA\obj\Debug\DIST.SUIST.DA.dll
 F:\DOCUMENTOS\SistemaSUITS\DIST.SUIST.DA\obj\Debug\DIST.SUIST.DA.pdb
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.DA\bin\Debug\DIST.SUIST.DA.dll
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.DA\bin\Debug\DIST.SUIST.DA.pdb
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.DA\bin\Debug\DIST.SUIST.BE.dll
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.DA\bin\Debug\DIST.SUIST.BE.pdb
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.DA\obj\Debug\DIST.SUIST.DA.csprojResolveAssemblyReference.cache
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.DA\obj\Debug\DIST.SUIST.DA.csproj.CoreCompileInputs.cache
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.DA\obj\Debug\DIST.SUIST.DA.dll
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.DA\obj\Debug\DIST.SUIST.DA.pdb

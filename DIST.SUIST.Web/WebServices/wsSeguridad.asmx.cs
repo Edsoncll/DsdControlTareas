@@ -28,13 +28,21 @@ namespace DIST.SUIST.Web
             {
                 UsuarioBE oUsuario = new UsuarioBE();
 
+                if (ManejoColas.ObtenerCola("Logueo") == 3)
+                {
+                    objMwResultado.Resultado = "ERROR";
+                    objMwResultado.Mensaje = "Usted ah superado la cantidad de intentos";
+
+                    goto Termino;
+                }
+
                 oUsuario = objSeguridadBL.ValidarUsuario(objUsuario);
 
                 if (oUsuario.IdUsuario != 0)
                     goto GetSesion;
 
-
-
+                ManejoColas.AgregarCola("Logueo", objUsuario.Usuario);
+                
                 objMwResultado.Resultado = "ERROR";
                 objMwResultado.Mensaje = "Credenciales ingresadas no son correctas o se encuentran inhabilitadas";
 

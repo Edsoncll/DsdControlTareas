@@ -38,3 +38,13 @@ F:\DOCUMENTOS\SistemaSUITS\DIST.SUIST.BL\obj\Debug\DIST.SUIST.BL.csprojResolveAs
 F:\DOCUMENTOS\SistemaSUITS\DIST.SUIST.BL\obj\Debug\DIST.SUIST.BL.csproj.CoreCompileInputs.cache
 F:\DOCUMENTOS\SistemaSUITS\DIST.SUIST.BL\obj\Debug\DIST.SUIST.BL.dll
 F:\DOCUMENTOS\SistemaSUITS\DIST.SUIST.BL\obj\Debug\DIST.SUIST.BL.pdb
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.BL\bin\Debug\DIST.SUIST.BL.dll
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.BL\bin\Debug\DIST.SUIST.BL.pdb
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.BL\bin\Debug\DIST.SUIST.BE.dll
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.BL\bin\Debug\DIST.SUIST.DA.dll
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.BL\bin\Debug\DIST.SUIST.BE.pdb
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.BL\bin\Debug\DIST.SUIST.DA.pdb
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.BL\obj\Debug\DIST.SUIST.BL.csprojResolveAssemblyReference.cache
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.BL\obj\Debug\DIST.SUIST.BL.csproj.CoreCompileInputs.cache
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.BL\obj\Debug\DIST.SUIST.BL.dll
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.BL\obj\Debug\DIST.SUIST.BL.pdb

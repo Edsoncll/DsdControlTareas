@@ -78,5 +78,26 @@ namespace DIST.SUIST.BE
         {
             get { return Convert.ToString(ConfigurationManager.AppSettings[portcorreo]); }
         }
+
+        /**Colas ColasProjectId**/
+        private static readonly string colasProjectId = "ColasProjectId";
+        public static string ColasProjectId
+        {
+            get { return Convert.ToString(ConfigurationManager.AppSettings[colasProjectId]); }
+        }
+        
+        /**Colas ColasToken**/
+        private static readonly string colastoken = "ColasToken";
+        public static string ColasToken
+        {
+            get { return Convert.ToString(ConfigurationManager.AppSettings[colastoken]); }
+        }
+
+        /**Colas ColasHost**/
+        private static readonly string colashost = "ColasHost";
+        public static string ColasHost
+        {
+            get { return Convert.ToString(ConfigurationManager.AppSettings[colashost]); }
+        }
     }
 }

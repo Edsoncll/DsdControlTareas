@@ -284,7 +284,7 @@
             var msecPerHour = msecPerMinute * 60;
             var msecPerDay = msecPerHour * 24;
 
-            var fecha1 = formatDate($("#txtFechaInicio").val()) + " " + $("#txtHoraInicio").val() + ":00", fecha2 = formatDate($("#txtFechaFin").val()) + " " + $("#txtHoraFin").val() + ":00";
+            var fecha1 = formatDate($("#txtFechaInicio").val()) + " " + $("#txtHoraInicio").val() + ":00", fecha2 = formatDate($("#txtFechaInicio").val()) + " " + $("#txtHoraFin").val() + ":00";
             var t1 = new Date(fecha1), t2 = new Date(fecha2);
             var tiempo1 = t1.getTime(), tiempo2 = t2.getTime();
             var tiempoR = tiempo2 - tiempo1;
@@ -330,49 +330,36 @@
 
         function fGuardarActividad(dialogConfirm) {
             var mensajeResult = "Ocurri&oacute; un error al acceder al servicio web, intente nuevamente";
-
-            var objUsuarioBE = new UsuarioBE();
-            objUsuarioBE.IdUsuario = $("#hfIdUsuario").val() != "" ? $.trim($("#hfIdUsuario").val()) : 0;
-
-            var objClienteBE = new ClienteBE();
-            objClienteBE.IdCliente = $("#slCliente").val() != "" ? $.trim($("#slCliente").val()) : 0;
-
-            var objProyectoBE = new ProyectoBE();
-            objProyectoBE.IdProyecto = $("#slProyecto").val() != "" ? $.trim($("#slProyecto").val()) : 0;
-
-            var objTipoActividadBE = new TipoActividadBE();
-            objTipoActividadBE.IdTipoActividad = $("#slTipoActividad").val() != "" ? $.trim($("#slTipoActividad").val()) : 0;
-
-            var objContactoBE = new ContactoBE();
-            objContactoBE.IdContacto = $("#slContacto").val() != "" ? $.trim($("#slContacto").val()) : 0;
-
+            
             var objActividadBE = new ActividadBE();
-            objActividadBE.IdActividad = $("#hfIdActividad").val() != "" ? $.trim($("#hfIdActividad").val()) : 0;
+            objActividadBE.IdActividad = $("#hfIdActividad").val() != "" ? parseInt($.trim($("#hfIdActividad").val())) : 0;
+            objActividadBE.IdUsuario = $("#hfIdUsuario").val() != "" ? parseInt($.trim($("#hfIdUsuario").val())) : 0;
+            objActividadBE.IdCliente = $("#slCliente").val() != "" ? parseInt($.trim($("#slCliente").val())) : 0;
+            objActividadBE.IdProyecto = $("#slProyecto").val() != "" ? parseInt($.trim($("#slProyecto").val())) : 0;
+            objActividadBE.IdTipoActividad = $("#slTipoActividad").val() != "" ? parseInt($.trim($("#slTipoActividad").val())) : 0;
+            objActividadBE.IdContacto = $("#slContacto").val() != "" ? parseInt($.trim($("#slContacto").val())) : 0;
             objActividadBE.Glosa = $("#taGlosa").val() != "" ? $.trim($("#taGlosa").val()) : "";
-            var fechaInicio = $("#txtFechaInicio").val() != "" ? formatDate($("#txtFechaInicio").val()) + " " + $("#txtHoraInicio").val() : null;
-            objActividadBE.FechaInicio = fechaInicio;
-            var fechaFin = $("#txtFechaInicio").val() != "" ? formatDate($("#txtFechaInicio").val()) + " " + $("#txtHoraFin").val() : null;
-            objActividadBE.FechaFin = fechaFin
+            var fechaInicio = $("#txtFechaInicio").val() != "" ? formatDate($("#txtFechaInicio").val()) + " " + $("#txtHoraInicio").val() : "";
+            objActividadBE.StrFechaInicio = fechaInicio;
+            var fechaFin = $("#txtFechaInicio").val() != "" ? formatDate($("#txtFechaInicio").val()) + " " + $("#txtHoraFin").val() : "";
+            objActividadBE.StrFechaFin = fechaFin
             var TotalHoras = $("#txtTotalHoras").val() != "" ? $.trim($("#txtTotalHoras").val()) : "00:00";
             var stotalhoras = TotalHoras.split(":");
             objActividadBE.TotalHoras = stotalhoras[0];
             objActividadBE.TotalMinutos = stotalhoras[1];
             objActividadBE.Facturable = $("#cbFacturable").is(':checked') ? true : false;
-            objActividadBE.Usuario = objUsuarioBE;
-            objActividadBE.Cliente = objClienteBE;
-            objActividadBE.Proyecto = objProyectoBE;
-            objActividadBE.TipoActividad = objTipoActividadBE;
-            objActividadBE.Contacto = objContactoBE;
-
-            var param = "{ 'oActividad': " + JSON.stringify(objActividadBE) + "}";
+            
+            //var param = "{ 'oActividad': " + JSON.stringify(objActividadBE) + "}";
+            var param = JSON.stringify(objActividadBE);
+            console.log(param);
             $.ajax({
                 type: "POST",
-                url: wsMantenimientoActividad + "/GuardarActividad",
+                url: wsMantenimientoActividad,
                 contentType: "application/json; charset=utf-8",
                 dataType: "json",
                 data: param,
                 success: function (resp) {
-                    var vResult = (typeof resp.d) == 'string' ? eval('(' + resp.d + ')') : resp.d;
+                    var vResult = (typeof resp) == 'string' ? eval('(' + resp + ')') : resp;
                     var eserror = true;
                     if (vResult != null) {
                         if (vResult.Resultado == 'OK')

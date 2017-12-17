@@ -50,3 +50,25 @@ F:\DOCUMENTOS\SistemaSUITS\DIST.SUIST.Services\obj\Debug\DIST.SUIST.Services.csp
 F:\DOCUMENTOS\SistemaSUITS\DIST.SUIST.Services\obj\Debug\DIST.SUIST.Services.csproj.CoreCompileInputs.cache
 F:\DOCUMENTOS\SistemaSUITS\DIST.SUIST.Services\obj\Debug\DIST.SUIST.Services.dll
 F:\DOCUMENTOS\SistemaSUITS\DIST.SUIST.Services\obj\Debug\DIST.SUIST.Services.pdb
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services\bin\DIST.SUIST.Services.dll.config
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services\bin\DIST.SUIST.Services.dll
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services\bin\DIST.SUIST.Services.pdb
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services\bin\DIST.SUIST.BE.dll
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services\bin\DIST.SUIST.BL.dll
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services\bin\DIST.SUIST.Web.dll
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services\bin\DIST.SUIST.DA.dll
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services\bin\ClosedXML.dll
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services\bin\Newtonsoft.Json.dll
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services\bin\DocumentFormat.OpenXml.dll
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services\bin\DIST.SUIST.BE.pdb
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services\bin\DIST.SUIST.BL.pdb
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services\bin\DIST.SUIST.Web.pdb
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services\bin\DIST.SUIST.Web.dll.config
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services\bin\DIST.SUIST.DA.pdb
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services\bin\ClosedXML.pdb
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services\bin\ClosedXML.xml
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services\bin\Newtonsoft.Json.xml
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services\obj\Debug\DIST.SUIST.Services.csprojResolveAssemblyReference.cache
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services\obj\Debug\DIST.SUIST.Services.csproj.CoreCompileInputs.cache
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services\obj\Debug\DIST.SUIST.Services.dll
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services\obj\Debug\DIST.SUIST.Services.pdb

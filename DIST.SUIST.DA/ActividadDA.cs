@@ -230,11 +230,11 @@ namespace DIST.SUIST.DA
 
                     //Paramtros de Entrada
                     cmd.Parameters.Add(UtilDA.SetParameter("@ACT_IDACTIVIDAD", SqlDbType.Int, ParameterDirection.Input, objActividad.IdActividad, !(objActividad.IdActividad > 0)));
-                    cmd.Parameters.Add(UtilDA.SetParameter("@USU_IDUSUARIO", SqlDbType.Int, ParameterDirection.Input, objActividad.Usuario.IdUsuario, !(objActividad.Usuario.IdUsuario > 0)));
-                    cmd.Parameters.Add(UtilDA.SetParameter("@CLI_IDCLIENTE", SqlDbType.Int, ParameterDirection.Input, objActividad.Cliente.IdCliente, !(objActividad.Cliente.IdCliente > 0)));
-                    cmd.Parameters.Add(UtilDA.SetParameter("@PRY_IDPROYECTO", SqlDbType.Int, ParameterDirection.Input, objActividad.Proyecto.IdProyecto, !(objActividad.Proyecto.IdProyecto > 0)));
-                    cmd.Parameters.Add(UtilDA.SetParameter("@TAC_IDTIPOACTIVIDAD", SqlDbType.Int, ParameterDirection.Input, objActividad.TipoActividad.IdTipoActividad, !(objActividad.TipoActividad.IdTipoActividad > 0)));
-                    cmd.Parameters.Add(UtilDA.SetParameter("@CON_IDCONTACTO", SqlDbType.Int, ParameterDirection.Input, objActividad.Contacto.IdContacto, !(objActividad.Contacto.IdContacto > 0)));
+                    cmd.Parameters.Add(UtilDA.SetParameter("@USU_IDUSUARIO", SqlDbType.Int, ParameterDirection.Input, objActividad.IdUsuario, !(objActividad.IdUsuario > 0)));
+                    cmd.Parameters.Add(UtilDA.SetParameter("@CLI_IDCLIENTE", SqlDbType.Int, ParameterDirection.Input, objActividad.IdCliente, !(objActividad.IdCliente > 0)));
+                    cmd.Parameters.Add(UtilDA.SetParameter("@PRY_IDPROYECTO", SqlDbType.Int, ParameterDirection.Input, objActividad.IdProyecto, !(objActividad.IdProyecto > 0)));
+                    cmd.Parameters.Add(UtilDA.SetParameter("@TAC_IDTIPOACTIVIDAD", SqlDbType.Int, ParameterDirection.Input, objActividad.IdTipoActividad, !(objActividad.IdTipoActividad > 0)));
+                    cmd.Parameters.Add(UtilDA.SetParameter("@CON_IDCONTACTO", SqlDbType.Int, ParameterDirection.Input, objActividad.IdContacto, !(objActividad.IdContacto > 0)));
                     cmd.Parameters.Add(UtilDA.SetParameter("@ACT_GLOSA", SqlDbType.VarChar, ParameterDirection.Input, objActividad.Glosa, string.IsNullOrEmpty(objActividad.Glosa)));
                     cmd.Parameters.Add(UtilDA.SetParameter("@ACT_FECHAINCIO", SqlDbType.DateTime, ParameterDirection.Input, objActividad.FechaInicio, (objActividad.FechaInicio == null)));
                     cmd.Parameters.Add(UtilDA.SetParameter("@ACT_FECHAFIN", SqlDbType.DateTime, ParameterDirection.Input, objActividad.FechaFin, (objActividad.FechaFin == null)));

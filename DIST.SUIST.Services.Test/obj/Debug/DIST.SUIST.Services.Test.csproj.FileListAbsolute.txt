@@ -29,3 +29,22 @@ F:\DOCUMENTOS\SistemaSUITS\DIST.SUIST.Services.Test\obj\Debug\DIST.SUIST.Service
 F:\DOCUMENTOS\SistemaSUITS\DIST.SUIST.Services.Test\obj\Debug\DIST.SUIST.Services.Test.csproj.CoreCompileInputs.cache
 F:\DOCUMENTOS\SistemaSUITS\DIST.SUIST.Services.Test\obj\Debug\DIST.SUIST.Services.Test.dll
 F:\DOCUMENTOS\SistemaSUITS\DIST.SUIST.Services.Test\obj\Debug\DIST.SUIST.Services.Test.pdb
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services.Test\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services.Test\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services.Test\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services.Test\bin\Debug\DIST.SUIST.Services.Test.dll.config
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services.Test\bin\Debug\DIST.SUIST.Services.Test.dll
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services.Test\bin\Debug\DIST.SUIST.Services.Test.pdb
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services.Test\bin\Debug\DIST.SUIST.BE.dll
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services.Test\bin\Debug\DIST.SUIST.BE.pdb
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services.Test\obj\Debug\DIST.SUIST.Services.Test.csprojResolveAssemblyReference.cache
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services.Test\obj\Debug\DIST.SUIST.Services.Test.csproj.CoreCompileInputs.cache
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services.Test\obj\Debug\DIST.SUIST.Services.Test.dll
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.Services.Test\obj\Debug\DIST.SUIST.Services.Test.pdb

@@ -20,3 +20,9 @@ F:\DOCUMENTOS\SistemaSUITS\DIST.SUIST.BE\obj\Debug\DIST.SUIST.BE.csprojResolveAs
 F:\DOCUMENTOS\SistemaSUITS\DIST.SUIST.BE\obj\Debug\DIST.SUIST.BE.csproj.CoreCompileInputs.cache
 F:\DOCUMENTOS\SistemaSUITS\DIST.SUIST.BE\obj\Debug\DIST.SUIST.BE.dll
 F:\DOCUMENTOS\SistemaSUITS\DIST.SUIST.BE\obj\Debug\DIST.SUIST.BE.pdb
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.BE\bin\Debug\DIST.SUIST.BE.dll
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.BE\bin\Debug\DIST.SUIST.BE.pdb
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.BE\obj\Debug\DIST.SUIST.BE.csprojResolveAssemblyReference.cache
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.BE\obj\Debug\DIST.SUIST.BE.csproj.CoreCompileInputs.cache
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.BE\obj\Debug\DIST.SUIST.BE.dll
+F:\DOCUMENTOS\SistemaSUITS\Proyecto Gestion de actividades\DsdControlTareas\DIST.SUIST.BE\obj\Debug\DIST.SUIST.BE.pdb

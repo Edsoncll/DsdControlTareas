@@ -181,7 +181,7 @@ namespace DIST.SUIST.Web
         public const string URL_WEBSERVICE_ADMINISTRAR_CONTACTO = "/WebServices/wsContacto.asmx";
         public const string URL_WEBSERVICE_ADMINISTRAR_FACTURACION = "/WebServices/wsFacturacion.asmx";
 
-        public const string URL_WEBSERVICE_CONTROL_TIEMPO_ACTIVIDAD = "/WebServices/wsActividad.asmx";
+        public const string URL_WEBSERVICE_CONTROL_TIEMPO_ACTIVIDAD = "/ServicesWcf/wsActividad.svc/Evento";
 
         public const string URL_WEBSERVICE_CONTROL_GASTO = "/WebServices/wsGasto.asmx";
 

@@ -97,18 +97,25 @@
 
         var ActividadBE = function () {
             this.IdActividad = 0;
+            this.IdUsuario = 0;
+            this.IdCliente = 0;
+            this.IdProyecto = 0;
+            this.IdTipoActividad = 0;
+            this.IdContacto = 0;
             this.Glosa = "";
             this.FechaInicio = null;
             this.FechaFin = null;
+            this.StrFechaInicio = "";
+            this.StrFechaFin = "";
             this.TotalHoras = 0;
             this.TotalMinutos = 0;
             this.Facturable = false;
 
-            this.Usuario = new UsuarioBE();
-            this.Cliente = new ClienteBE();
-            this.Proyecto = new ProyectoBE();
-            this.TipoActividad = new TipoActividadBE();
-            this.Contacto = new ContactoBE();
+            //this.Usuario = new UsuarioBE();
+            //this.Cliente = new ClienteBE();
+            //this.Proyecto = new ProyectoBE();
+            //this.TipoActividad = new TipoActividadBE();
+            //this.Contacto = new ContactoBE();
         }
 
         var eventData;
@@ -120,6 +127,7 @@
         });
 
         function fValidarFormulario() {
+            
         }
 
         function fAgregarEventosBotones() {
@@ -159,14 +167,14 @@
                         batch: true, // Enable batch updates
                         transport: {
                             read: {
-                                url: wsMantenimientoActividad + "/ListarEventos",
+                                url: wsMantenimientoActividad, //+ "/ListarEventos",
                                 contentType: "application/json; charset=utf-8",
-                                type: "POST",
+                                type: "GET",
                                 dataType: "json"
                             }
                         },
                         schema: {
-                            data: "d",
+                            //data: "d",
                             model: {
                                 id: "id", // The "id" of the event is the "taskId" field
                                 fields: {
