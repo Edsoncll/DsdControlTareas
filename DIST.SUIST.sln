@@ -1,10 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2008
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIST.SUIST.Services", "DIST.SUIST.Services\DIST.SUIST.Services.csproj", "{8ECD3B8E-5970-4982-9E38-BE4F6E334932}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIST.SUIST.Web", "DIST.SUIST.Web\DIST.SUIST.Web.csproj", "{F8E30706-887A-4F06-B16B-A659DAEE9EE8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIST.SUIST.BE", "DIST.SUIST.BE\DIST.SUIST.BE.csproj", "{7CD59959-77A8-4BFF-8AA2-1A8EA702D728}"
@@ -14,9 +12,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIST.SUIST.BL", "DIST.SUIST.BL\DIST.SUIST.BL.csproj", "{210B2D30-34E8-4BFB-A669-4B0D652C37C3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIST.SUIST.Services.Test", "DIST.SUIST.Services.Test\DIST.SUIST.Services.Test.csproj", "{69A0BB34-8170-430A-816F-F4AC24D8D0FE}"
-	ProjectSection(ProjectDependencies) = postProject
-		{8ECD3B8E-5970-4982-9E38-BE4F6E334932} = {8ECD3B8E-5970-4982-9E38-BE4F6E334932}
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8ECD3B8E-5970-4982-9E38-BE4F6E334932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8ECD3B8E-5970-4982-9E38-BE4F6E334932}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8ECD3B8E-5970-4982-9E38-BE4F6E334932}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8ECD3B8E-5970-4982-9E38-BE4F6E334932}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F8E30706-887A-4F06-B16B-A659DAEE9EE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F8E30706-887A-4F06-B16B-A659DAEE9EE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8E30706-887A-4F06-B16B-A659DAEE9EE8}.Release|Any CPU.ActiveCfg = Release|Any CPU

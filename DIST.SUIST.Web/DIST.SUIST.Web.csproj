@@ -800,6 +800,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Errores\ErroresExcption.cs" />
     <Compile Include="Forms\Administrar\Actividades\frmAdministrarTipoActividades.aspx.cs">
       <DependentUpon>frmAdministrarTipoActividades.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

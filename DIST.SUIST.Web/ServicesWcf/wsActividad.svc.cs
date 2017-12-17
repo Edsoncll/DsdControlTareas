@@ -22,7 +22,7 @@ namespace DIST.SUIST.Web.ServicesWcf
             string strError = string.Empty;
             MensajeWrapperBE objMwResultado = new MensajeWrapperBE { Resultado = "ER", Mensaje = "" };
             objMwResultado.Mensaje = HttpUtility.HtmlEncode("Ocurrio un error inesperado");
-                        
+
 
             oActividad.FechaInicio = Globales.ConvertirFecha(oActividad.StrFechaInicio);
             oActividad.FechaFin = Globales.ConvertirFecha(oActividad.StrFechaFin);
@@ -42,6 +42,11 @@ namespace DIST.SUIST.Web.ServicesWcf
                     else
                     {
                         objMwResultado.Mensaje = mensajeout;
+                        throw new FaultException<ErroresExcption>(new ErroresExcption()
+                        {
+                            CodError = 1,
+                            DescError = "Error guardado"
+                        }, new FaultReason("Ocurrio un error inesperado al intentar guardar la Actividad."));
                     }
                 }
             }
@@ -101,6 +106,12 @@ namespace DIST.SUIST.Web.ServicesWcf
                     lstEventos.Add(objEventoBE);
                 }
             }
+            else
+                throw new FaultException<ErroresExcption>(new ErroresExcption()
+                {
+                    CodError = 2,
+                    DescError = "Error listadi"
+                }, new FaultReason("No se encontraton registros para mostrar."));
 
             return lstEventos;
         }
