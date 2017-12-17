@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ClienteServices" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:57532/ClienteServices.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:57532/ClienteServices.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:57532/ClienteServices.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/DIST.SUIST.Services" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IClienteServices_ListarClientes_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListarClientes" />
+  </wsdl:message>
+  <wsdl:message name="IClienteServices_ListarClientes_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarClientesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClienteServices_ListarTipoClientes_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListarTipoClientes" />
+  </wsdl:message>
+  <wsdl:message name="IClienteServices_ListarTipoClientes_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarTipoClientesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClienteServices_ObtenerCliente_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerCliente" />
+  </wsdl:message>
+  <wsdl:message name="IClienteServices_ObtenerCliente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerClienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClienteServices_ObtenerCliente_ClienteExcptionFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/DIST.SUIST.Services" name="detail" element="q1:ClienteExcption" />
+  </wsdl:message>
+  <wsdl:message name="IClienteServices_GuardarCliente_InputMessage">
+    <wsdl:part name="parameters" element="tns:GuardarCliente" />
+  </wsdl:message>
+  <wsdl:message name="IClienteServices_GuardarCliente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GuardarClienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClienteServices_EliminarCliente_InputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarCliente" />
+  </wsdl:message>
+  <wsdl:message name="IClienteServices_EliminarCliente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarClienteResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IClienteServices">
+    <wsdl:operation name="ListarClientes">
+      <wsdl:input wsaw:Action="http://tempuri.org/IClienteServices/ListarClientes" message="tns:IClienteServices_ListarClientes_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IClienteServices/ListarClientesResponse" message="tns:IClienteServices_ListarClientes_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarTipoClientes">
+      <wsdl:input wsaw:Action="http://tempuri.org/IClienteServices/ListarTipoClientes" message="tns:IClienteServices_ListarTipoClientes_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IClienteServices/ListarTipoClientesResponse" message="tns:IClienteServices_ListarTipoClientes_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerCliente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IClienteServices/ObtenerCliente" message="tns:IClienteServices_ObtenerCliente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IClienteServices/ObtenerClienteResponse" message="tns:IClienteServices_ObtenerCliente_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IClienteServices/ObtenerClienteClienteExcptionFault" name="ClienteExcptionFault" message="tns:IClienteServices_ObtenerCliente_ClienteExcptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GuardarCliente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IClienteServices/GuardarCliente" message="tns:IClienteServices_GuardarCliente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IClienteServices/GuardarClienteResponse" message="tns:IClienteServices_GuardarCliente_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarCliente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IClienteServices/EliminarCliente" message="tns:IClienteServices_EliminarCliente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IClienteServices/EliminarClienteResponse" message="tns:IClienteServices_EliminarCliente_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IClienteServices" type="tns:IClienteServices">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ListarClientes">
+      <soap:operation soapAction="http://tempuri.org/IClienteServices/ListarClientes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarTipoClientes">
+      <soap:operation soapAction="http://tempuri.org/IClienteServices/ListarTipoClientes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerCliente">
+      <soap:operation soapAction="http://tempuri.org/IClienteServices/ObtenerCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="ClienteExcptionFault">
+        <soap:fault use="literal" name="ClienteExcptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GuardarCliente">
+      <soap:operation soapAction="http://tempuri.org/IClienteServices/GuardarCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarCliente">
+      <soap:operation soapAction="http://tempuri.org/IClienteServices/EliminarCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ClienteServices">
+    <wsdl:port name="BasicHttpBinding_IClienteServices" binding="tns:BasicHttpBinding_IClienteServices">
+      <soap:address location="http://localhost:57532/ClienteServices.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

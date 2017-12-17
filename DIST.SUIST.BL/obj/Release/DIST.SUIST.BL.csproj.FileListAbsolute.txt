@@ -1,0 +1,10 @@
+D:\Antonio\ProyectoUPC\DIST.SUIST\DIST.SUIST.BL\bin\Release\DIST.SUIST.BL.dll
+D:\Antonio\ProyectoUPC\DIST.SUIST\DIST.SUIST.BL\bin\Release\DIST.SUIST.BL.pdb
+D:\Antonio\ProyectoUPC\DIST.SUIST\DIST.SUIST.BL\bin\Release\DIST.SUIST.BE.dll
+D:\Antonio\ProyectoUPC\DIST.SUIST\DIST.SUIST.BL\bin\Release\DIST.SUIST.DA.dll
+D:\Antonio\ProyectoUPC\DIST.SUIST\DIST.SUIST.BL\bin\Release\DIST.SUIST.BE.pdb
+D:\Antonio\ProyectoUPC\DIST.SUIST\DIST.SUIST.BL\bin\Release\DIST.SUIST.DA.pdb
+D:\Antonio\ProyectoUPC\DIST.SUIST\DIST.SUIST.BL\obj\Release\DIST.SUIST.BL.csprojResolveAssemblyReference.cache
+D:\Antonio\ProyectoUPC\DIST.SUIST\DIST.SUIST.BL\obj\Release\DIST.SUIST.BL.csproj.CoreCompileInputs.cache
+D:\Antonio\ProyectoUPC\DIST.SUIST\DIST.SUIST.BL\obj\Release\DIST.SUIST.BL.dll
+D:\Antonio\ProyectoUPC\DIST.SUIST\DIST.SUIST.BL\obj\Release\DIST.SUIST.BL.pdb

@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="DIST.SUIST.Services.ClienteServices" CodeBehind="ClienteServices.svc.cs" %>

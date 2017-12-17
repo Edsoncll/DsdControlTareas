@@ -1,0 +1,6 @@
+D:\Antonio\ProyectoUPC\DIST.SUIST\DIST.SUIST.BE\bin\Release\DIST.SUIST.BE.dll
+D:\Antonio\ProyectoUPC\DIST.SUIST\DIST.SUIST.BE\bin\Release\DIST.SUIST.BE.pdb
+D:\Antonio\ProyectoUPC\DIST.SUIST\DIST.SUIST.BE\obj\Release\DIST.SUIST.BE.csprojResolveAssemblyReference.cache
+D:\Antonio\ProyectoUPC\DIST.SUIST\DIST.SUIST.BE\obj\Release\DIST.SUIST.BE.csproj.CoreCompileInputs.cache
+D:\Antonio\ProyectoUPC\DIST.SUIST\DIST.SUIST.BE\obj\Release\DIST.SUIST.BE.dll
+D:\Antonio\ProyectoUPC\DIST.SUIST\DIST.SUIST.BE\obj\Release\DIST.SUIST.BE.pdb

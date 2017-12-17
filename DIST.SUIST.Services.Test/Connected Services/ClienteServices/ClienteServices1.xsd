@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/DIST.SUIST.Services" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/DIST.SUIST.Services" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfClienteDC">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ClienteDC" nillable="true" type="tns:ClienteDC" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfClienteDC" nillable="true" type="tns:ArrayOfClienteDC" />
+  <xs:complexType name="ClienteDC">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Auditoria" nillable="true" type="tns:AuditoriaDC" />
+      <xs:element minOccurs="0" name="Color" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Direccion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DocumentoIdentidad" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FechaFinContrato" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="FechaInicioContrato" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="IdCliente" type="xs:int" />
+      <xs:element minOccurs="0" name="NombreCompleto" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Prefijo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SitioWeb" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Telefono" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TipoCliente" nillable="true" type="tns:TipoClienteDC" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ClienteDC" nillable="true" type="tns:ClienteDC" />
+  <xs:complexType name="AuditoriaDC">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Fecha" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Usuario" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AuditoriaDC" nillable="true" type="tns:AuditoriaDC" />
+  <xs:complexType name="TipoClienteDC">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Auditoria" nillable="true" type="tns:AuditoriaDC" />
+      <xs:element minOccurs="0" name="Descripcion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IdTipoCliente" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TipoClienteDC" nillable="true" type="tns:TipoClienteDC" />
+  <xs:complexType name="ArrayOfTipoClienteDC">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="TipoClienteDC" nillable="true" type="tns:TipoClienteDC" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTipoClienteDC" nillable="true" type="tns:ArrayOfTipoClienteDC" />
+  <xs:complexType name="ClienteExcption">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CodError" type="xs:int" />
+      <xs:element minOccurs="0" name="DescError" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ClienteExcption" nillable="true" type="tns:ClienteExcption" />
+</xs:schema>
